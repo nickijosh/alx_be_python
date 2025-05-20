@@ -1,0 +1,8 @@
+# Prompt user for current age
+current_age = int(input("HOw old are you?"))
+
+# Calculate age in 2050
+age_in_2050 = current_age + 27
+
+# Output the result
+print(f"In 2050. you will be {age_in_2050} years old.")
