@@ -23,6 +23,8 @@ class PrintBook(Book):  # ✅ Inherits from Book
 
     def describe(self):
         return f"PrintBook: {self.title} by {self.author}, Page Count: {self.page_count}"
+    def __str__(self):
+        return self.describe()
 
 
 class Library:  # ✅ Composition (has a collection of books)
